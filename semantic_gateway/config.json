@@ -1,0 +1,22 @@
+{
+  "dispatcher_url": "http://127.0.0.1:18791",
+  "embedding_model": "bge-m3",
+  "frame_strip_factual": false,
+  "generative_ttl": true,
+  "guard_enabled": true,
+  "guard_margin": 0.2,
+  "guard_margin_statement": 0.1,
+  "host": "127.0.0.1",
+  "legacy_backfill": false,
+  "log_path": "cache_hits.log.jsonl",
+  "ollama_url": "http://127.0.0.1:11434",
+  "port": 18795,
+  "store_path": "cache_store.json",
+  "threshold": 0.9,
+  "threshold_factual": 0.85,
+  "threshold_generative": 0.85,
+  "ttl_stable_hours": 168.0,
+  "upstream_max_tokens": 48,
+  "upstream_mode": "none",
+  "upstream_model": "gemma3:4b-it-q8_0"
+}

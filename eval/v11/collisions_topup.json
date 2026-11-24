@@ -1,0 +1,90 @@
+[
+  {
+    "id": "v11t-001",
+    "text": "What is the deepest lake in the world?",
+    "jaccard": 1.0,
+    "source": "v9",
+    "prior_id": "v9-003",
+    "prior_text": "What is the deepest lake in the world?"
+  },
+  {
+    "id": "v11t-002",
+    "text": "Which lake is the deepest on Earth?",
+    "jaccard": 1.0,
+    "source": "v9",
+    "prior_id": "v9-004",
+    "prior_text": "Which lake is the deepest on Earth?"
+  },
+  {
+    "id": "v11t-013",
+    "text": "What is the tallest building in the world?",
+    "jaccard": 1.0,
+    "source": "v11-batch1",
+    "prior_id": "v11-013",
+    "prior_text": "What is the tallest building in the world?"
+  },
+  {
+    "id": "v11t-015",
+    "text": "How many minutes are there in a day?",
+    "jaccard": 1.0,
+    "source": "v11-batch1",
+    "prior_id": "v11-011",
+    "prior_text": "How many minutes are there in a day?"
+  },
+  {
+    "id": "v11t-018",
+    "text": "How many bones are in the adult human body?",
+    "jaccard": 1.0,
+    "source": "v8",
+    "prior_id": "v8t-011",
+    "prior_text": "How many bones are in the adult human body?"
+  },
+  {
+    "id": "v11t-020",
+    "text": "What is the tallest mountain in Africa?",
+    "jaccard": 1.0,
+    "source": "v11-batch1",
+    "prior_id": "v11-035",
+    "prior_text": "What is the tallest mountain in Africa?"
+  },
+  {
+    "id": "v11t-025",
+    "text": "Start the robot vacuum in the hallway.",
+    "jaccard": 1.0,
+    "source": "v10",
+    "prior_id": "v10t-024",
+    "prior_text": "Start the robot vacuum in the hallway."
+  },
+  {
+    "id": "v11t-032",
+    "text": "Where did I put my keys?",
+    "jaccard": 1.0,
+    "source": "v11-batch1",
+    "prior_id": "v11-067",
+    "prior_text": "Where did I put my keys?"
+  },
+  {
+    "id": "v11t-041",
+    "text": "Write a short poem about autumn rain.",
+    "jaccard": 0.857,
+    "source": "v5",
+    "prior_id": "v5-077",
+    "prior_text": "Write a short poem about autumn."
+  },
+  {
+    "id": "v11t-042",
+    "text": "Write a haiku about the sea at dawn.",
+    "jaccard": 1.0,
+    "source": "v9",
+    "prior_id": "v9-093",
+    "prior_text": "Write a haiku about the sea at dawn."
+  },
+  {
+    "id": "v11t-043",
+    "text": "Tell me a joke about dogs.",
+    "jaccard": 1.0,
+    "source": "v10",
+    "prior_id": "v10-092",
+    "prior_text": "Tell me a joke about dogs"
+  }
+]

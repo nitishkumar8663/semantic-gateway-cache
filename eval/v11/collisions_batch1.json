@@ -1,0 +1,266 @@
+[
+  {
+    "id": "v11-003",
+    "text": "How many legs does a spider have?",
+    "jaccard": 1.0,
+    "source": "v5",
+    "prior_id": "v5-025",
+    "prior_text": "How many legs does a spider have?"
+  },
+  {
+    "id": "v11-015",
+    "text": "Which metal is liquid at room temperature?",
+    "jaccard": 1.0,
+    "source": "v6",
+    "prior_id": "v6-037",
+    "prior_text": "Which metal is liquid at room temperature?"
+  },
+  {
+    "id": "v11-017",
+    "text": "What is the main ingredient in guacamole?",
+    "jaccard": 1.0,
+    "source": "v6",
+    "prior_id": "v6-029",
+    "prior_text": "What is the main ingredient in guacamole?"
+  },
+  {
+    "id": "v11-019",
+    "text": "How many colours are there in a rainbow?",
+    "jaccard": 1.0,
+    "source": "v6",
+    "prior_id": "v6-038",
+    "prior_text": "How many colours are there in a rainbow?"
+  },
+  {
+    "id": "v11-020",
+    "text": "Who wrote Romeo and Juliet?",
+    "jaccard": 1.0,
+    "source": "v5",
+    "prior_id": "v5-087",
+    "prior_text": "Who wrote Romeo and Juliet?"
+  },
+  {
+    "id": "v11-023",
+    "text": "How many sides does a hexagon have?",
+    "jaccard": 1.0,
+    "source": "v5",
+    "prior_id": "v5-090",
+    "prior_text": "How many sides does a hexagon have?"
+  },
+  {
+    "id": "v11-025",
+    "text": "Which planet is closest to the Sun?",
+    "jaccard": 1.0,
+    "source": "v4",
+    "prior_id": "v4-083",
+    "prior_text": "which planet is closest to the sun?"
+  },
+  {
+    "id": "v11-026",
+    "text": "Who wrote The Hobbit?",
+    "jaccard": 1.0,
+    "source": "v4",
+    "prior_id": "v4-050",
+    "prior_text": "who wrote The Hobbit?"
+  },
+  {
+    "id": "v11-034",
+    "text": "How many players are on a football team on the pitch?",
+    "jaccard": 1.0,
+    "source": "v8",
+    "prior_id": "v8-014",
+    "prior_text": "How many players are on a football team on the pitch?"
+  },
+  {
+    "id": "v11-038",
+    "text": "Which bird is a symbol of peace?",
+    "jaccard": 1.0,
+    "source": "v8",
+    "prior_id": "v8-011",
+    "prior_text": "Which bird is a symbol of peace?"
+  },
+  {
+    "id": "v11-041",
+    "text": "Turn off the kitchen lights.",
+    "jaccard": 1.0,
+    "source": "v8",
+    "prior_id": "v8-015",
+    "prior_text": "Turn off the kitchen lights."
+  },
+  {
+    "id": "v11-047",
+    "text": "Play some jazz music in the kitchen.",
+    "jaccard": 0.857,
+    "source": "v5",
+    "prior_id": "v5-052",
+    "prior_text": "Play some jazz in the kitchen."
+  },
+  {
+    "id": "v11-048",
+    "text": "Dim the bedroom lights to half brightness.",
+    "jaccard": 0.857,
+    "source": "v6",
+    "prior_id": "v6-072",
+    "prior_text": "Dim the bedroom lights to half."
+  },
+  {
+    "id": "v11-051",
+    "text": "Please lock the front door.",
+    "jaccard": 1.0,
+    "source": "v8",
+    "prior_id": "v8t-024",
+    "prior_text": "Lock the front door, please."
+  },
+  {
+    "id": "v11-057",
+    "text": "Is the front door locked?",
+    "jaccard": 1.0,
+    "source": "v8",
+    "prior_id": "v8-026",
+    "prior_text": "Is the front door locked?"
+  },
+  {
+    "id": "v11-060",
+    "text": "Where is my phone?",
+    "jaccard": 1.0,
+    "source": "v9",
+    "prior_id": "v9-062",
+    "prior_text": "Where is my phone?"
+  },
+  {
+    "id": "v11-061",
+    "text": "What is the weather like right now?",
+    "jaccard": 0.875,
+    "source": "v8",
+    "prior_id": "v8-028",
+    "prior_text": "What is the weather like outside right now?"
+  },
+  {
+    "id": "v11-062",
+    "text": "When does the sun go down today?",
+    "jaccard": 1.0,
+    "source": "v10",
+    "prior_id": "v10-061",
+    "prior_text": "When does the sun go down today?"
+  },
+  {
+    "id": "v11-064",
+    "text": "What is on my calendar tomorrow?",
+    "jaccard": 1.0,
+    "source": "v10",
+    "prior_id": "v10-075",
+    "prior_text": "What is on my calendar tomorrow?"
+  },
+  {
+    "id": "v11-066",
+    "text": "Is anyone at the front door?",
+    "jaccard": 1.0,
+    "source": "v7",
+    "prior_id": "v7-050",
+    "prior_text": "Is anyone at the front door?"
+  },
+  {
+    "id": "v11-069",
+    "text": "Has the post arrived today?",
+    "jaccard": 1.0,
+    "source": "v10",
+    "prior_id": "v10-064",
+    "prior_text": "Has the post arrived today?"
+  },
+  {
+    "id": "v11-071",
+    "text": "Remind me to call Mum at six this evening.",
+    "jaccard": 1.0,
+    "source": "v8",
+    "prior_id": "v8-034",
+    "prior_text": "Remind me to call Mum at six this evening."
+  },
+  {
+    "id": "v11-072",
+    "text": "Set a timer for twenty minutes.",
+    "jaccard": 1.0,
+    "source": "v7",
+    "prior_id": "v7-059",
+    "prior_text": "Set a timer for twenty minutes."
+  },
+  {
+    "id": "v11-074",
+    "text": "Send a message to Reema saying I will be late.",
+    "jaccard": 1.0,
+    "source": "v10",
+    "prior_id": "v10-071",
+    "prior_text": "Send a message to Reema saying I will be late"
+  },
+  {
+    "id": "v11-077",
+    "text": "Add milk to my shopping list.",
+    "jaccard": 1.0,
+    "source": "v8",
+    "prior_id": "v8-035",
+    "prior_text": "Add milk to my shopping list."
+  },
+  {
+    "id": "v11-079",
+    "text": "Remind me to water the plants on Sunday.",
+    "jaccard": 1.0,
+    "source": "v8",
+    "prior_id": "v8-040",
+    "prior_text": "Remind me to water the plants on Sunday."
+  },
+  {
+    "id": "v11-081",
+    "text": "Write a short story about a lighthouse keeper who finds a message in a bottle.",
+    "jaccard": 1.0,
+    "source": "v6",
+    "prior_id": "v6-083",
+    "prior_text": "Write a short story about a lighthouse keeper who finds a message in a bottle."
+  },
+  {
+    "id": "v11-092",
+    "text": "Write a wedding toast for a best friend.",
+    "jaccard": 0.875,
+    "source": "v10",
+    "prior_id": "v10-088",
+    "prior_text": "Write a wedding toast for my best friend"
+  },
+  {
+    "id": "v11-094",
+    "text": "Tell me a joke about cats.",
+    "jaccard": 1.0,
+    "source": "v3",
+    "prior_id": "v3-047",
+    "prior_text": "tell me a joke about cats"
+  },
+  {
+    "id": "v11-095",
+    "text": "What are you up to this weekend?",
+    "jaccard": 1.0,
+    "source": "v10",
+    "prior_id": "v10-093",
+    "prior_text": "What are you up to this weekend?"
+  },
+  {
+    "id": "v11-096",
+    "text": "I am feeling a bit tired today.",
+    "jaccard": 1.0,
+    "source": "v8",
+    "prior_id": "v8-055",
+    "prior_text": "I am feeling a bit tired today."
+  },
+  {
+    "id": "v11-099",
+    "text": "How was your day?",
+    "jaccard": 1.0,
+    "source": "v8",
+    "prior_id": "v8-062",
+    "prior_text": "How was your day?"
+  },
+  {
+    "id": "v11-100",
+    "text": "What should I do this weekend?",
+    "jaccard": 1.0,
+    "source": "v9",
+    "prior_id": "v9-088",
+    "prior_text": "What should I do this weekend?"
+  }
+]

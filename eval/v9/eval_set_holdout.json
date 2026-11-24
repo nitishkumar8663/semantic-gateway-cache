@@ -1,0 +1,391 @@
+{
+  "version": "v9",
+  "status": "frozen",
+  "frozen": true,
+  "counts": {
+    "prompts": 33,
+    "families": 29,
+    "cacheable": {
+      "stable": 14,
+      "never": 12,
+      "ttl24": 7
+    },
+    "category": {
+      "factual": 14,
+      "action": 5,
+      "perception": 4,
+      "agent-task": 3,
+      "generative": 4,
+      "chatter": 3
+    },
+    "must_block": [
+      "v9-065",
+      "v9-077"
+    ]
+  },
+  "prompts": [
+    {
+      "id": "v9-003",
+      "text": "What is the deepest lake in the world?",
+      "group": "V9-deepest-lake",
+      "category": "factual",
+      "cacheable": "stable",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v9-004",
+      "text": "Which lake is the deepest on Earth?",
+      "group": "V9-deepest-lake",
+      "category": "factual",
+      "cacheable": "stable",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v9-005",
+      "text": "What was the name of the first artificial satellite launched into space?",
+      "group": "V9-first-artificial-satellite",
+      "category": "factual",
+      "cacheable": "stable",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v9-006",
+      "text": "Which satellite was the first human-made object to orbit the Earth?",
+      "group": "V9-first-artificial-satellite",
+      "category": "factual",
+      "cacheable": "stable",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v9-009",
+      "text": "What is the driest place on Earth?",
+      "group": "V9-driest-place",
+      "category": "factual",
+      "cacheable": "stable",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v9-010",
+      "text": "Which desert is considered the driest place on the planet?",
+      "group": "V9-driest-place",
+      "category": "factual",
+      "cacheable": "stable",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v9-011",
+      "text": "What is the largest freshwater lake in the world by surface area?",
+      "group": "V9-largest-freshwater-lake",
+      "category": "factual",
+      "cacheable": "stable",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v9-012",
+      "text": "Which freshwater lake has the largest surface area on Earth?",
+      "group": "V9-largest-freshwater-lake",
+      "category": "factual",
+      "cacheable": "stable",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v9-021",
+      "text": "What is the chemical symbol for silver?",
+      "group": "V9-silver-symbol",
+      "category": "factual",
+      "cacheable": "stable",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v9-023",
+      "text": "Which bird is the fastest in a dive?",
+      "group": "V9-fastest-diving-bird",
+      "category": "factual",
+      "cacheable": "stable",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v9-025",
+      "text": "In which year did the Titanic sink?",
+      "group": "V9-titanic-year",
+      "category": "factual",
+      "cacheable": "stable",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v9-027",
+      "text": "Which sea has the highest salt concentration?",
+      "group": "V9-saltiest-sea",
+      "category": "factual",
+      "cacheable": "stable",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v9-030",
+      "text": "Who was the first woman to win a Nobel Prize?",
+      "group": "V9-first-woman-nobel",
+      "category": "factual",
+      "cacheable": "stable",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v9-035",
+      "text": "Which element has atomic number 1?",
+      "group": "V9-atomic-number-one",
+      "category": "factual",
+      "cacheable": "stable",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v9-044",
+      "text": "Open the living room blinds.",
+      "group": "V9-open-living-room-blinds",
+      "category": "action",
+      "cacheable": "never",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v9-047",
+      "text": "Has the washing finished yet?",
+      "group": "V9-washing-finished",
+      "category": "perception",
+      "cacheable": "never",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v9-048",
+      "text": "Where did I leave my car keys?",
+      "group": "V9-where-are-keys",
+      "category": "perception",
+      "cacheable": "never",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v9-054",
+      "text": "Can you order some more coffee beans?",
+      "group": "V9-order-more-coffee",
+      "category": "agent-task",
+      "cacheable": "never",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v9-056",
+      "text": "Turn on the hallway light, please.",
+      "group": "V9-turn-on-hallway-light",
+      "category": "action",
+      "cacheable": "never",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v9-057",
+      "text": "Could you close the bedroom window?",
+      "group": "V9-close-bedroom-window",
+      "category": "action",
+      "cacheable": "never",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v9-065",
+      "text": "Who is at the front door?",
+      "group": "V9-who-is-at-door",
+      "category": "perception",
+      "cacheable": "never",
+      "must_block": true,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v9-067",
+      "text": "Could you send a message to Reema saying I'll be ten minutes late?",
+      "group": "V9-text-reema",
+      "category": "agent-task",
+      "cacheable": "never",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v9-068",
+      "text": "What's on my calendar tomorrow?",
+      "group": "V9-whats-on-calendar-tomorrow",
+      "category": "agent-task",
+      "cacheable": "never",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v9-072",
+      "text": "Please switch off the TV in the bedroom.",
+      "group": "V9-switch-off-tv",
+      "category": "action",
+      "cacheable": "never",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v9-074",
+      "text": "Start the robot vacuum in the living room.",
+      "group": "V9-start-robot-vacuum",
+      "category": "action",
+      "cacheable": "never",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v9-077",
+      "text": "Where did I park the car?",
+      "group": "V9-where-did-i-park",
+      "category": "perception",
+      "cacheable": "never",
+      "must_block": true,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v9-083",
+      "text": "Write a short toast for my best friend's birthday.",
+      "group": "V9-toast-best-friend",
+      "category": "generative",
+      "cacheable": "ttl24",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v9-086",
+      "text": "Hey, how are you doing today?",
+      "group": "V9-how-are-you",
+      "category": "chatter",
+      "cacheable": "ttl24",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v9-090",
+      "text": "Good morning, how are you?",
+      "group": "V9-good-morning",
+      "category": "chatter",
+      "cacheable": "ttl24",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v9-091",
+      "text": "Tell me a bedtime story about a dragon who is afraid of flying.",
+      "group": "V9-story-dragon",
+      "category": "generative",
+      "cacheable": "ttl24",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v9-092",
+      "text": "Suggest ten names for a small bakery business.",
+      "group": "V9-business-names",
+      "category": "generative",
+      "cacheable": "ttl24",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v9-093",
+      "text": "Write a haiku about the sea at dawn.",
+      "group": "V9-haiku-sea",
+      "category": "generative",
+      "cacheable": "ttl24",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v9-099",
+      "text": "I'm in a really good mood today, what shall we celebrate?",
+      "group": "V9-feeling-happy",
+      "category": "chatter",
+      "cacheable": "ttl24",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    }
+  ]
+}

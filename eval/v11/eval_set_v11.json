@@ -1,0 +1,748 @@
+{
+  "version": "v11",
+  "status": "candidate",
+  "prompts": [
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-piano-88-keys",
+      "id": "v11-001",
+      "text": "Which instrument has 88 keys?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-piano-88-keys",
+      "id": "v11-002",
+      "text": "What musical instrument is known for having 88 keys?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-spider-legs",
+      "id": "v11-004",
+      "text": "How many legs do spiders have in total?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-largest-desert-asia",
+      "id": "v11-005",
+      "text": "What is the largest desert in Asia?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-largest-desert-asia",
+      "id": "v11-006",
+      "text": "Which desert is the biggest in Asia?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-scream-painter",
+      "id": "v11-007",
+      "text": "Who painted The Scream?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-scream-painter",
+      "id": "v11-008",
+      "text": "Which artist painted The Scream?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-smallest-ocean",
+      "id": "v11-009",
+      "text": "Which ocean is the smallest?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-smallest-ocean",
+      "id": "v11-010",
+      "text": "What is the smallest ocean in the world?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-minutes-in-day",
+      "id": "v11-011",
+      "text": "How many minutes are there in a day?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-minutes-in-day",
+      "id": "v11-012",
+      "text": "How many minutes make up a full day?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-tallest-building",
+      "id": "v11-013",
+      "text": "What is the tallest building in the world?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-tallest-building",
+      "id": "v11-014",
+      "text": "Which building is the tallest in the world?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-liquid-metal-room-temp",
+      "id": "v11-016",
+      "text": "What metal stays liquid at room temperature?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-guacamole-main-ingredient",
+      "id": "v11-018",
+      "text": "Which ingredient is the main one in guacamole?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-kangaroo-country",
+      "id": "v11-021",
+      "text": "Which country is home to kangaroos?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-copper-symbol",
+      "id": "v11-022",
+      "text": "What is the chemical symbol for copper?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-largest-island",
+      "id": "v11-024",
+      "text": "What is the largest island in the world?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-plants-absorb-gas",
+      "id": "v11-027",
+      "text": "What gas do plants absorb from the air?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-fastest-bird",
+      "id": "v11-028",
+      "text": "What is the fastest bird in the world?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-largest-ocean-mammal",
+      "id": "v11-029",
+      "text": "What is the largest mammal in the ocean?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-violin-strings",
+      "id": "v11-030",
+      "text": "How many strings does a violin have?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-king-of-fruits",
+      "id": "v11-031",
+      "text": "Which fruit is known as the king of fruits?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-egypt-language",
+      "id": "v11-032",
+      "text": "What is the main language spoken in Egypt?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-girl-pearl-earring-painter",
+      "id": "v11-033",
+      "text": "Who painted Girl with a Pearl Earring?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-tallest-mountain-africa",
+      "id": "v11-035",
+      "text": "What is the tallest mountain in Africa?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-largest-bear-species",
+      "id": "v11-036",
+      "text": "What is the largest species of bear?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-ant-legs",
+      "id": "v11-037",
+      "text": "How many legs does an ant have?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-fastest-fish",
+      "id": "v11-039",
+      "text": "What is the fastest fish in the ocean?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-longest-wall",
+      "id": "v11-040",
+      "text": "What is the longest wall in the world?"
+    },
+    {
+      "cacheable": "never",
+      "category": "action",
+      "group": "V11-turn-on-living-room-lamp",
+      "id": "v11-042",
+      "text": "Turn on the living room lamp."
+    },
+    {
+      "cacheable": "never",
+      "category": "action",
+      "group": "V11-lower-heating-18",
+      "id": "v11-043",
+      "text": "Lower the heating to 18 degrees."
+    },
+    {
+      "cacheable": "never",
+      "category": "action",
+      "group": "V11-open-bedroom-window",
+      "id": "v11-044",
+      "text": "Open the bedroom window."
+    },
+    {
+      "cacheable": "never",
+      "category": "action",
+      "group": "V11-close-living-room-curtains",
+      "id": "v11-045",
+      "text": "Close the curtains in the living room."
+    },
+    {
+      "cacheable": "never",
+      "category": "action",
+      "group": "V11-start-vacuum-hallway",
+      "id": "v11-046",
+      "text": "Start the vacuum in the hallway."
+    },
+    {
+      "cacheable": "never",
+      "category": "action",
+      "group": "V11-switch-off-bathroom-light",
+      "id": "v11-049",
+      "text": "Please switch off the bathroom light."
+    },
+    {
+      "cacheable": "never",
+      "category": "action",
+      "group": "V11-turn-up-thermostat",
+      "id": "v11-050",
+      "text": "Please turn up the thermostat a little."
+    },
+    {
+      "cacheable": "never",
+      "category": "action",
+      "group": "V11-start-dishwasher",
+      "id": "v11-052",
+      "text": "Please start the dishwasher."
+    },
+    {
+      "cacheable": "never",
+      "category": "action",
+      "group": "V11-turn-off-bedroom-fan",
+      "id": "v11-053",
+      "text": "Can you turn off the fan in the bedroom?"
+    },
+    {
+      "cacheable": "never",
+      "category": "action",
+      "group": "V11-play-morning-playlist",
+      "id": "v11-054",
+      "text": "Could you play my morning playlist in the living room?"
+    },
+    {
+      "cacheable": "never",
+      "category": "action",
+      "group": "V11-turn-heating-down-tonight",
+      "id": "v11-055",
+      "text": "Can you turn the heating down tonight?"
+    },
+    {
+      "cacheable": "never",
+      "category": "action",
+      "group": "V11-unlock-back-door",
+      "id": "v11-056",
+      "text": "Could you unlock a back door for me?"
+    },
+    {
+      "cacheable": "never",
+      "category": "perception",
+      "group": "V11-parcel-arrived",
+      "id": "v11-058",
+      "text": "Has the parcel arrived yet?"
+    },
+    {
+      "cacheable": "never",
+      "category": "perception",
+      "group": "V11-dinner-ready",
+      "id": "v11-059",
+      "text": "Is dinner ready?"
+    },
+    {
+      "cacheable": "never",
+      "category": "perception",
+      "group": "V11-car-charged-tomorrow",
+      "id": "v11-063",
+      "text": "Is my car charged enough to drive tomorrow?"
+    },
+    {
+      "cacheable": "never",
+      "category": "perception",
+      "group": "V11-oven-left-on",
+      "id": "v11-065",
+      "text": "Did I leave the oven on?"
+    },
+    {
+      "cacheable": "never",
+      "category": "perception",
+      "group": "V11-where-put-keys",
+      "id": "v11-067",
+      "text": "Where did I put my keys?"
+    },
+    {
+      "cacheable": "never",
+      "category": "perception",
+      "group": "V11-washing-dry-check",
+      "id": "v11-068",
+      "text": "Can you check if the washing is dry?"
+    },
+    {
+      "cacheable": "never",
+      "category": "perception",
+      "group": "V11-living-room-warm",
+      "id": "v11-070",
+      "text": "Is the living room warm enough?"
+    },
+    {
+      "cacheable": "never",
+      "category": "agent-task",
+      "group": "V11-alarm-seven-morning",
+      "id": "v11-073",
+      "text": "Set an alarm for seven tomorrow morning."
+    },
+    {
+      "cacheable": "never",
+      "category": "agent-task",
+      "group": "V11-book-taxi-station-nine",
+      "id": "v11-075",
+      "text": "Book a taxi to the station for nine o'clock."
+    },
+    {
+      "cacheable": "never",
+      "category": "agent-task",
+      "group": "V11-order-coffee-beans",
+      "id": "v11-076",
+      "text": "Order more coffee beans for delivery."
+    },
+    {
+      "cacheable": "never",
+      "category": "agent-task",
+      "group": "V11-schedule-dentist-next-week",
+      "id": "v11-078",
+      "text": "Schedule a dentist appointment for next week."
+    },
+    {
+      "cacheable": "never",
+      "category": "agent-task",
+      "group": "V11-timer-pasta-ten-minutes",
+      "id": "v11-080",
+      "text": "Set a timer for the pasta in ten minutes."
+    },
+    {
+      "cacheable": "ttl24",
+      "category": "generative",
+      "group": "V11-poem-rain-city-night",
+      "id": "v11-082",
+      "text": "Write a poem about rain in a city at night."
+    },
+    {
+      "cacheable": "ttl24",
+      "category": "generative",
+      "group": "V11-toast-thirtieth-birthday",
+      "id": "v11-083",
+      "text": "Write a toast for a friend's thirtieth birthday."
+    },
+    {
+      "cacheable": "ttl24",
+      "category": "generative",
+      "group": "V11-haiku-autumn-leaves",
+      "id": "v11-084",
+      "text": "Write a haiku about autumn leaves."
+    },
+    {
+      "cacheable": "ttl24",
+      "category": "generative",
+      "group": "V11-names-coffee-shop",
+      "id": "v11-085",
+      "text": "Suggest three names for a new coffee shop."
+    },
+    {
+      "cacheable": "ttl24",
+      "category": "generative",
+      "group": "V11-song-chorus-train-travel",
+      "id": "v11-086",
+      "text": "Write a song chorus about travelling by train."
+    },
+    {
+      "cacheable": "ttl24",
+      "category": "generative",
+      "group": "V11-story-cat-paints",
+      "id": "v11-087",
+      "text": "Write a short story about a cat who learns to paint."
+    },
+    {
+      "cacheable": "ttl24",
+      "category": "generative",
+      "group": "V11-ideas-surprise-birthday-party",
+      "id": "v11-088",
+      "text": "Give me five ideas for a surprise birthday party."
+    },
+    {
+      "cacheable": "ttl24",
+      "category": "generative",
+      "group": "V11-poem-first-snow-winter",
+      "id": "v11-089",
+      "text": "Write a poem about the first snow of winter."
+    },
+    {
+      "cacheable": "ttl24",
+      "category": "generative",
+      "group": "V11-limerick-baker-village",
+      "id": "v11-090",
+      "text": "Write a limerick about a baker in a small village."
+    },
+    {
+      "cacheable": "ttl24",
+      "category": "generative",
+      "group": "V11-name-fictional-island",
+      "id": "v11-091",
+      "text": "Invent a name for a fictional island and describe it in two sentences."
+    },
+    {
+      "cacheable": "ttl24",
+      "category": "chatter",
+      "group": "V11-greeting-how-are-you",
+      "id": "v11-093",
+      "text": "Hello, how are you today?"
+    },
+    {
+      "cacheable": "ttl24",
+      "category": "chatter",
+      "group": "V11-good-morning-whats-new",
+      "id": "v11-097",
+      "text": "Good morning, what is new with you?"
+    },
+    {
+      "cacheable": "ttl24",
+      "category": "chatter",
+      "group": "V11-tell-something-funny",
+      "id": "v11-098",
+      "text": "Tell me something funny."
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11T-only-flying-mammal",
+      "id": "v11t-003",
+      "text": "What is the only mammal that can fly?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11T-only-flying-mammal",
+      "id": "v11t-004",
+      "text": "Which mammal is capable of flight?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11T-backwards-flying-bird",
+      "id": "v11t-005",
+      "text": "Which bird can fly backwards?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11T-backwards-flying-bird",
+      "id": "v11t-006",
+      "text": "What bird is able to fly in reverse?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11T-seeds-outside-fruit",
+      "id": "v11t-007",
+      "text": "Which fruit has its seeds on the outside?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11T-seeds-outside-fruit",
+      "id": "v11t-008",
+      "text": "What fruit carries its seeds on its outer skin?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11T-largest-rainforest",
+      "id": "v11t-009",
+      "text": "What is the largest rainforest in the world?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11T-largest-rainforest",
+      "id": "v11t-010",
+      "text": "Which rainforest is the biggest on Earth?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11T-smallest-country",
+      "id": "v11t-011",
+      "text": "What is the smallest country in the world?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11T-smallest-country",
+      "id": "v11t-012",
+      "text": "Which country is the smallest by area?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11T-tallest-building",
+      "id": "v11t-014",
+      "text": "Which building is the tallest on the planet?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11T-most-pyramids-country",
+      "id": "v11t-016",
+      "text": "Which country has the most pyramids?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11T-fastest-sea-animal",
+      "id": "v11t-017",
+      "text": "What is the fastest sea animal?"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11T-salt-formula",
+      "id": "v11t-019",
+      "text": "What is the chemical formula for salt?"
+    },
+    {
+      "cacheable": "never",
+      "category": "action",
+      "group": "V11T-pause-study-music",
+      "id": "v11t-021",
+      "text": "Pause the music playing in the study."
+    },
+    {
+      "cacheable": "never",
+      "category": "action",
+      "group": "V11T-brighten-hallway-lamp",
+      "id": "v11t-022",
+      "text": "Please brighten the hallway lamp."
+    },
+    {
+      "cacheable": "never",
+      "category": "action",
+      "group": "V11T-unlock-garage-door",
+      "id": "v11t-023",
+      "text": "Could you unlock a garage door?"
+    },
+    {
+      "cacheable": "never",
+      "category": "action",
+      "group": "V11T-close-bathroom-blinds",
+      "id": "v11t-024",
+      "text": "Close the blinds in the bathroom."
+    },
+    {
+      "cacheable": "never",
+      "category": "action",
+      "group": "V11T-open-study-curtains",
+      "id": "v11t-026",
+      "text": "Can you open the curtains in the study?"
+    },
+    {
+      "cacheable": "never",
+      "category": "action",
+      "group": "V11T-resume-garden-podcast",
+      "id": "v11t-027",
+      "text": "Resume the podcast on the garden speaker."
+    },
+    {
+      "cacheable": "never",
+      "category": "action",
+      "group": "V11T-dim-porch-light",
+      "id": "v11t-028",
+      "text": "Dim the porch light to half brightness."
+    },
+    {
+      "cacheable": "never",
+      "category": "action",
+      "group": "V11T-heating-bathroom-up",
+      "id": "v11t-029",
+      "text": "Turn up the heating in the bathroom."
+    },
+    {
+      "cacheable": "never",
+      "category": "perception",
+      "group": "V11T-check-garage-door-open",
+      "id": "v11t-030",
+      "text": "Can you check if the garage door is open?"
+    },
+    {
+      "cacheable": "never",
+      "category": "perception",
+      "group": "V11T-anyone-in-garden",
+      "id": "v11t-031",
+      "text": "Is anyone in the garden right now?"
+    },
+    {
+      "cacheable": "never",
+      "category": "perception",
+      "group": "V11T-check-laundry-finished",
+      "id": "v11t-033",
+      "text": "Can you check if the laundry has finished?"
+    },
+    {
+      "cacheable": "never",
+      "category": "perception",
+      "group": "V11T-study-temperature-now",
+      "id": "v11t-034",
+      "text": "What is the temperature in the study right now?"
+    },
+    {
+      "cacheable": "never",
+      "category": "agent-task",
+      "group": "V11T-remind-call-dentist",
+      "id": "v11t-035",
+      "text": "Remind me to call the dentist at three this afternoon."
+    },
+    {
+      "cacheable": "never",
+      "category": "agent-task",
+      "group": "V11T-book-taxi-station",
+      "id": "v11t-036",
+      "text": "Book a taxi to the station for tomorrow morning."
+    },
+    {
+      "cacheable": "never",
+      "category": "agent-task",
+      "group": "V11T-order-coffee-beans",
+      "id": "v11t-037",
+      "text": "Order more coffee beans online."
+    },
+    {
+      "cacheable": "never",
+      "category": "agent-task",
+      "group": "V11T-cancel-gym-class",
+      "id": "v11t-038",
+      "text": "Cancel my gym class on Thursday."
+    },
+    {
+      "cacheable": "never",
+      "category": "agent-task",
+      "group": "V11T-schedule-plumber-visit",
+      "id": "v11t-039",
+      "text": "Schedule a plumber visit for next Tuesday."
+    },
+    {
+      "cacheable": "never",
+      "category": "agent-task",
+      "group": "V11T-message-electrician-friday",
+      "id": "v11t-040",
+      "text": "Send a message to the electrician to confirm Friday."
+    },
+    {
+      "cacheable": "ttl24",
+      "category": "generative",
+      "group": "V11T-story-train-never-arrives",
+      "id": "v11t-044",
+      "text": "Write a short story about a train that never arrives."
+    },
+    {
+      "cacheable": "ttl24",
+      "category": "generative",
+      "group": "V11T-name-for-puppy",
+      "id": "v11t-045",
+      "text": "Suggest a name for a new puppy."
+    },
+    {
+      "cacheable": "ttl24",
+      "category": "generative",
+      "group": "V11T-limerick-forgetful-librarian",
+      "id": "v11t-046",
+      "text": "Write a limerick about a forgetful librarian."
+    },
+    {
+      "cacheable": "ttl24",
+      "category": "generative",
+      "group": "V11T-bedtime-story-moonlit-garden",
+      "id": "v11t-047",
+      "text": "Invent a bedtime story about a moonlit garden."
+    },
+    {
+      "cacheable": "ttl24",
+      "category": "chatter",
+      "group": "V11T-like-rainy-days",
+      "id": "v11t-048",
+      "text": "Do you like rainy days?"
+    },
+    {
+      "cacheable": "ttl24",
+      "category": "chatter",
+      "group": "V11T-finished-long-run",
+      "id": "v11t-049",
+      "text": "I just finished a long run and I feel great."
+    },
+    {
+      "cacheable": "ttl24",
+      "category": "chatter",
+      "group": "V11T-film-rainy-evening",
+      "id": "v11t-050",
+      "text": "What is a good film to watch on a rainy evening?"
+    }
+  ]
+}

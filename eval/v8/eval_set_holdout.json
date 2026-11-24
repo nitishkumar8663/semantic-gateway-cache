@@ -1,0 +1,413 @@
+{
+  "version": "v8",
+  "status": "frozen",
+  "frozen": true,
+  "counts": {
+    "prompts": 35,
+    "families": 32,
+    "cacheable": {
+      "stable": 11,
+      "never": 14,
+      "ttl24": 10
+    },
+    "category": {
+      "factual": 11,
+      "action": 6,
+      "perception": 3,
+      "agent-task": 5,
+      "generative": 5,
+      "chatter": 5
+    },
+    "must_block": [
+      "v8-028",
+      "v8-029"
+    ]
+  },
+  "prompts": [
+    {
+      "id": "v8-004",
+      "text": "In which year did the Second World War end?",
+      "category": "factual",
+      "cacheable": "stable",
+      "group": "V8-ww2-end-year",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v8-005",
+      "text": "When did World War II come to an end?",
+      "category": "factual",
+      "cacheable": "stable",
+      "group": "V8-ww2-end-year",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v8-008",
+      "text": "What force keeps planets in orbit around the Sun?",
+      "category": "factual",
+      "cacheable": "stable",
+      "group": "V8-gravity-orbits",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v8-009",
+      "text": "What is the smallest planet in our solar system?",
+      "category": "factual",
+      "cacheable": "stable",
+      "group": "V8-smallest-planet",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v8-015",
+      "text": "Turn off the kitchen lights.",
+      "category": "action",
+      "cacheable": "never",
+      "group": "V8-kitchen-lights-off",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v8-016",
+      "text": "Could you switch on the hallway light?",
+      "category": "action",
+      "cacheable": "never",
+      "group": "V8-hallway-light-on",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v8-017",
+      "text": "Please open the living room blinds.",
+      "category": "action",
+      "cacheable": "never",
+      "group": "V8-living-room-blinds-open",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v8-019",
+      "text": "Set the heating to 21 degrees.",
+      "category": "action",
+      "cacheable": "never",
+      "group": "V8-heating-21-degrees",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v8-021",
+      "text": "Start the washing machine.",
+      "category": "action",
+      "cacheable": "never",
+      "group": "V8-washing-machine-start",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v8-028",
+      "text": "What is the weather like outside right now?",
+      "category": "perception",
+      "cacheable": "never",
+      "group": "V8-weather-now",
+      "must_block": true,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v8-029",
+      "text": "Is someone at the front door?",
+      "category": "perception",
+      "cacheable": "never",
+      "group": "V8-someone-at-door",
+      "must_block": true,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v8-033",
+      "text": "Is anyone in the kitchen?",
+      "category": "perception",
+      "cacheable": "never",
+      "group": "V8-anyone-in-kitchen",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v8-034",
+      "text": "Remind me to call Mum at six this evening.",
+      "category": "agent-task",
+      "cacheable": "never",
+      "group": "V8-remind-call-mum-six",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v8-040",
+      "text": "Remind me to water the plants on Sunday.",
+      "category": "agent-task",
+      "cacheable": "never",
+      "group": "V8-remind-water-plants-sunday",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v8-042",
+      "text": "Book a table for two at the Italian restaurant tonight.",
+      "category": "agent-task",
+      "cacheable": "never",
+      "group": "V8-book-table-italian-tonight",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v8-043",
+      "text": "Send a text to Ravi saying happy birthday.",
+      "category": "agent-task",
+      "cacheable": "never",
+      "group": "V8-text-ravi-birthday",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v8-045",
+      "text": "Could you write a poem about autumn leaves?",
+      "category": "generative",
+      "cacheable": "ttl24",
+      "group": "V8-poem-autumn-leaves",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v8-046",
+      "text": "Write a haiku about the first snow of winter.",
+      "category": "generative",
+      "cacheable": "ttl24",
+      "group": "V8-haiku-first-snow",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v8-048",
+      "text": "Write a short toast for my friend's wedding.",
+      "category": "generative",
+      "cacheable": "ttl24",
+      "group": "V8-toast-friends-wedding",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v8-049",
+      "text": "Compose a birthday song for my sister.",
+      "category": "generative",
+      "cacheable": "ttl24",
+      "group": "V8-birthday-song-sister",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v8-050",
+      "text": "Brainstorm five names for a new coffee shop.",
+      "category": "generative",
+      "cacheable": "ttl24",
+      "group": "V8-names-coffee-shop",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v8-056",
+      "text": "What is your favourite way to spend a rainy Sunday?",
+      "category": "chatter",
+      "cacheable": "ttl24",
+      "group": "V8-rainy-sunday-favourite",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v8-058",
+      "text": "I had a really good day at work today.",
+      "category": "chatter",
+      "cacheable": "ttl24",
+      "group": "V8-good-day-at-work",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v8-062",
+      "text": "How was your day?",
+      "category": "chatter",
+      "cacheable": "ttl24",
+      "group": "V8-how-was-your-day",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V8T-chemical-symbol-iron",
+      "id": "v8t-005",
+      "text": "What is the chemical symbol for iron?",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V8T-chemical-symbol-iron",
+      "id": "v8t-006",
+      "text": "Which element has the symbol Fe?",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V8T-speed-of-sound",
+      "id": "v8t-007",
+      "text": "How fast does sound travel through air?",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V8T-speed-of-sound",
+      "id": "v8t-008",
+      "text": "What is the speed of sound in air at sea level?",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V8T-human-bones",
+      "id": "v8t-011",
+      "text": "How many bones are in the adult human body?",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V8T-oxygen-percent-air",
+      "id": "v8t-013",
+      "text": "What percentage of the air we breathe is oxygen?",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V8T-square-root-169",
+      "id": "v8t-016",
+      "text": "What is the square root of 169?",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "cacheable": "never",
+      "category": "action",
+      "group": "V8T-coffee-machine-on",
+      "id": "v8t-025",
+      "text": "Switch the coffee machine on.",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "cacheable": "never",
+      "category": "agent-task",
+      "group": "V8T-remind-dentist",
+      "id": "v8t-029",
+      "text": "Remind me about my dentist appointment tomorrow.",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "cacheable": "ttl24",
+      "category": "chatter",
+      "group": "V8T-whats-for-dinner",
+      "id": "v8t-038",
+      "text": "What should I cook for dinner tonight?",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "cacheable": "ttl24",
+      "category": "chatter",
+      "group": "V8T-thanks-help",
+      "id": "v8t-040",
+      "text": "Thanks for all your help today.",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    }
+  ]
+}

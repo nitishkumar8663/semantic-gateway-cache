@@ -1,0 +1,242 @@
+[
+  {
+    "id": "v11-010",
+    "text": "What is the smallest ocean in the world?",
+    "jaccard": 0.75,
+    "source": "v8",
+    "prior_id": "v8-006",
+    "prior_text": "What is the largest ocean in the world?"
+  },
+  {
+    "id": "v11-013",
+    "text": "What is the tallest building in the world?",
+    "jaccard": 0.75,
+    "source": "v5",
+    "prior_id": "v5-010",
+    "prior_text": "What is the tallest mountain in the world?"
+  },
+  {
+    "id": "v11-022",
+    "text": "What is the chemical symbol for copper?",
+    "jaccard": 0.75,
+    "source": "v5",
+    "prior_id": "v5-007",
+    "prior_text": "What is the chemical symbol for gold?"
+  },
+  {
+    "id": "v11-024",
+    "text": "What is the largest island in the world?",
+    "jaccard": 0.75,
+    "source": "v5",
+    "prior_id": "v5-036",
+    "prior_text": "What is the largest mammal in the world?"
+  },
+  {
+    "id": "v11-027",
+    "text": "What gas do plants absorb from the air?",
+    "jaccard": 0.8,
+    "source": "v8",
+    "prior_id": "v8-002",
+    "prior_text": "What gas do plants absorb from the air for photosynthesis?"
+  },
+  {
+    "id": "v11-028",
+    "text": "What is the fastest bird in the world?",
+    "jaccard": 0.75,
+    "source": "v8",
+    "prior_id": "v8t-020",
+    "prior_text": "What is the largest bird in the world?"
+  },
+  {
+    "id": "v11-029",
+    "text": "What is the largest mammal in the ocean?",
+    "jaccard": 0.75,
+    "source": "v5",
+    "prior_id": "v5-036",
+    "prior_text": "What is the largest mammal in the world?"
+  },
+  {
+    "id": "v11-032",
+    "text": "What is the main language spoken in Egypt?",
+    "jaccard": 0.778,
+    "source": "v7",
+    "prior_id": "v7-018",
+    "prior_text": "What is the main language spoken in Brazil?"
+  },
+  {
+    "id": "v11-035",
+    "text": "What is the tallest mountain in Africa?",
+    "jaccard": 0.75,
+    "source": "v5",
+    "prior_id": "v5-010",
+    "prior_text": "What is the tallest mountain in the world?"
+  },
+  {
+    "id": "v11-040",
+    "text": "What is the longest wall in the world?",
+    "jaccard": 0.75,
+    "source": "v5",
+    "prior_id": "v5-088",
+    "prior_text": "What is the longest river in the world?"
+  },
+  {
+    "id": "v11-042",
+    "text": "Turn on the living room lamp.",
+    "jaccard": 0.714,
+    "source": "v3",
+    "prior_id": "v3-014",
+    "prior_text": "turn on the living room lights"
+  },
+  {
+    "id": "v11-043",
+    "text": "Lower the heating to 18 degrees.",
+    "jaccard": 0.714,
+    "source": "v7",
+    "prior_id": "v7-032",
+    "prior_text": "Lower the thermostat to 18 degrees."
+  },
+  {
+    "id": "v11-046",
+    "text": "Start the vacuum in the hallway.",
+    "jaccard": 0.833,
+    "source": "v10",
+    "prior_id": "v10t-024",
+    "prior_text": "Start the robot vacuum in the hallway."
+  },
+  {
+    "id": "v11-052",
+    "text": "Please start the dishwasher.",
+    "jaccard": 0.75,
+    "source": "v5",
+    "prior_id": "v5-041",
+    "prior_text": "Start the dishwasher."
+  },
+  {
+    "id": "v11-056",
+    "text": "Could you unlock a back door for me?",
+    "jaccard": 0.75,
+    "source": "v7",
+    "prior_id": "v7-037",
+    "prior_text": "Unlock a back door for me."
+  },
+  {
+    "id": "v11-059",
+    "text": "Is dinner ready?",
+    "jaccard": 0.75,
+    "source": "v9",
+    "prior_id": "v9-061",
+    "prior_text": "Is dinner ready yet?"
+  },
+  {
+    "id": "v11-065",
+    "text": "Did I leave the oven on?",
+    "jaccard": 0.714,
+    "source": "v4",
+    "prior_id": "v4-048",
+    "prior_text": "did I leave the iron on?"
+  },
+  {
+    "id": "v11-067",
+    "text": "Where did I put my keys?",
+    "jaccard": 0.714,
+    "source": "v8",
+    "prior_id": "v8t-028",
+    "prior_text": "Where did I put my phone?"
+  },
+  {
+    "id": "v11-073",
+    "text": "Set an alarm for seven tomorrow morning.",
+    "jaccard": 0.7,
+    "source": "v9",
+    "prior_id": "v9-053",
+    "prior_text": "Please set an alarm for seven in the morning tomorrow."
+  },
+  {
+    "id": "v11-080",
+    "text": "Set a timer for the pasta in ten minutes.",
+    "jaccard": 0.727,
+    "source": "v9",
+    "prior_id": "v9-052",
+    "prior_text": "Could you set a timer for ten minutes for the pasta?"
+  },
+  {
+    "id": "v11-084",
+    "text": "Write a haiku about autumn leaves.",
+    "jaccard": 0.714,
+    "source": "v3",
+    "prior_id": "v3-042",
+    "prior_text": "Write a haiku about autumn rain."
+  },
+  {
+    "id": "v11-087",
+    "text": "Write a short story about a cat who learns to paint.",
+    "jaccard": 0.818,
+    "source": "v10",
+    "prior_id": "v10-081",
+    "prior_text": "Write a short story about a cat who learns to fly"
+  },
+  {
+    "id": "v11-089",
+    "text": "Write a poem about the first snow of winter.",
+    "jaccard": 0.8,
+    "source": "v8",
+    "prior_id": "v8-046",
+    "prior_text": "Write a haiku about the first snow of winter."
+  },
+  {
+    "id": "v11-093",
+    "text": "Hello, how are you today?",
+    "jaccard": 0.8,
+    "source": "v5",
+    "prior_id": "v5-074",
+    "prior_text": "How are you today?"
+  },
+  {
+    "id": "v11t-009",
+    "text": "What is the largest rainforest in the world?",
+    "jaccard": 0.75,
+    "source": "v5",
+    "prior_id": "v5-036",
+    "prior_text": "What is the largest mammal in the world?"
+  },
+  {
+    "id": "v11t-010",
+    "text": "Which rainforest is the biggest on Earth?",
+    "jaccard": 0.75,
+    "source": "v5",
+    "prior_id": "v5-037",
+    "prior_text": "Which mammal is the biggest on Earth?"
+  },
+  {
+    "id": "v11t-011",
+    "text": "What is the smallest country in the world?",
+    "jaccard": 0.75,
+    "source": "v9",
+    "prior_id": "v9-028",
+    "prior_text": "What is the smallest bird in the world?"
+  },
+  {
+    "id": "v11t-017",
+    "text": "What is the fastest sea animal?",
+    "jaccard": 0.714,
+    "source": "v5",
+    "prior_id": "v5-089",
+    "prior_text": "What is the fastest land animal?"
+  },
+  {
+    "id": "v11t-019",
+    "text": "What is the chemical formula for salt?",
+    "jaccard": 0.75,
+    "source": "v5",
+    "prior_id": "v5-085",
+    "prior_text": "What is the chemical formula for water?"
+  },
+  {
+    "id": "v11t-036",
+    "text": "Book a taxi to the station for tomorrow morning.",
+    "jaccard": 0.7,
+    "source": "v5",
+    "prior_id": "v5-062",
+    "prior_text": "Book a taxi to the station for 8am."
+  }
+]

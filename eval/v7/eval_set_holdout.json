@@ -1,0 +1,358 @@
+{
+  "version": "v7",
+  "status": "frozen",
+  "frozen": true,
+  "counts": {
+    "prompts": 30,
+    "families": 28,
+    "cacheable": {
+      "stable": 10,
+      "never": 12,
+      "ttl24": 8
+    },
+    "category": {
+      "factual": 10,
+      "action": 6,
+      "perception": 3,
+      "agent-task": 3,
+      "generative": 4,
+      "chatter": 4
+    },
+    "must_block": [
+      "v7-031",
+      "v7-049"
+    ]
+  },
+  "prompts": [
+    {
+      "id": "v7-005",
+      "group": "V7-hamlet-author",
+      "text": "Who wrote Hamlet?",
+      "category": "factual",
+      "cacheable": "stable",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v7-006",
+      "group": "V7-hamlet-author",
+      "text": "Hamlet was written by which playwright?",
+      "category": "factual",
+      "cacheable": "stable",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v7-008",
+      "group": "V7-gold-symbol",
+      "text": "Which element has the symbol Au?",
+      "category": "factual",
+      "cacheable": "stable",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v7-010",
+      "group": "V7-everest-height",
+      "text": "How tall is Mount Everest?",
+      "category": "factual",
+      "cacheable": "stable",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v7-011",
+      "group": "V7-everest-height",
+      "text": "What is the height of the tallest mountain on Earth?",
+      "category": "factual",
+      "cacheable": "stable",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v7-018",
+      "group": "V7-brazil-language",
+      "text": "What is the main language spoken in Brazil?",
+      "category": "factual",
+      "cacheable": "stable",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v7-022",
+      "group": "V7-water-freezing-point",
+      "text": "What is the freezing point of water in Celsius?",
+      "category": "factual",
+      "cacheable": "stable",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v7-025",
+      "group": "V7-blood-pump-organ",
+      "text": "Which organ pumps blood around the human body?",
+      "category": "factual",
+      "cacheable": "stable",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v7-026",
+      "group": "V7-ww2-end-year",
+      "text": "In what year did the Second World War end?",
+      "category": "factual",
+      "cacheable": "stable",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v7-027",
+      "group": "V7-smallest-prime",
+      "text": "What is the smallest prime number?",
+      "category": "factual",
+      "cacheable": "stable",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v7-031",
+      "group": "V7-heating-up",
+      "text": "Can you turn the heating up a bit?",
+      "category": "action",
+      "cacheable": "never",
+      "must_block": true,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v7-033",
+      "group": "V7-dishwasher-on",
+      "text": "Put the dishwasher on now.",
+      "category": "action",
+      "cacheable": "never",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v7-035",
+      "group": "V7-play-jazz-kitchen",
+      "text": "Play some jazz on the kitchen speaker.",
+      "category": "action",
+      "cacheable": "never",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v7-038",
+      "group": "V7-garage-door-open",
+      "text": "Open the garage door.",
+      "category": "action",
+      "cacheable": "never",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v7-041",
+      "group": "V7-vacuum-lounge-start",
+      "text": "Start the robot vacuum in the lounge.",
+      "category": "action",
+      "cacheable": "never",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v7-044",
+      "group": "V7-porch-light-on",
+      "text": "Switch the porch light on, it's dark outside.",
+      "category": "action",
+      "cacheable": "never",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v7-047",
+      "group": "V7-dishwasher-finished",
+      "text": "Has the dishwasher finished its cycle?",
+      "category": "perception",
+      "cacheable": "never",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v7-049",
+      "group": "V7-doorbell-who",
+      "text": "Who just rang the doorbell?",
+      "category": "perception",
+      "cacheable": "never",
+      "must_block": true,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v7-050",
+      "group": "V7-anyone-front-door",
+      "text": "Is anyone at the front door?",
+      "category": "perception",
+      "cacheable": "never",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v7-056",
+      "group": "V7-shopping-list-milk-bread",
+      "text": "Add milk and bread to the shopping list.",
+      "category": "agent-task",
+      "cacheable": "never",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v7-057",
+      "group": "V7-order-coffee-beans",
+      "text": "Order more coffee beans, we're running low.",
+      "category": "agent-task",
+      "cacheable": "never",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v7-059",
+      "group": "V7-timer-20-minutes",
+      "text": "Set a timer for twenty minutes.",
+      "category": "agent-task",
+      "cacheable": "never",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v7-068",
+      "group": "V7-birthday-message-cyclist",
+      "text": "Draft a birthday message for my friend who loves cycling.",
+      "category": "generative",
+      "cacheable": "ttl24",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v7-069",
+      "group": "V7-drawing-ideas-rainy",
+      "text": "Come up with some drawing ideas for a rainy afternoon.",
+      "category": "generative",
+      "cacheable": "ttl24",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v7-070",
+      "group": "V7-wedding-toast",
+      "text": "Write a short toast I could give at a wedding.",
+      "category": "generative",
+      "cacheable": "ttl24",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v7-071",
+      "group": "V7-song-laundry",
+      "text": "Make up a silly song about doing the laundry.",
+      "category": "generative",
+      "cacheable": "ttl24",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v7-072",
+      "group": "V7-long-week",
+      "text": "It's been a long week.",
+      "category": "chatter",
+      "cacheable": "ttl24",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v7-076",
+      "group": "V7-cant-wait-weekend",
+      "text": "I can't wait for the weekend.",
+      "category": "chatter",
+      "cacheable": "ttl24",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v7-077",
+      "group": "V7-cheer-me-up",
+      "text": "Tell me something to cheer me up.",
+      "category": "chatter",
+      "cacheable": "ttl24",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v7-079",
+      "group": "V7-nice-dinner",
+      "text": "That was a really nice dinner, wasn't it?",
+      "category": "chatter",
+      "cacheable": "ttl24",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    }
+  ]
+}

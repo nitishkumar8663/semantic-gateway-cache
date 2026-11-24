@@ -1,0 +1,435 @@
+{
+  "version": "v11",
+  "status": "frozen",
+  "frozen": true,
+  "counts": {
+    "prompts": 37,
+    "families": 33,
+    "cacheable": {
+      "stable": 15,
+      "never": 15,
+      "ttl24": 7
+    },
+    "category": {
+      "factual": 15,
+      "action": 7,
+      "perception": 4,
+      "agent-task": 4,
+      "generative": 5,
+      "chatter": 2
+    },
+    "must_block": [
+      "v11-063",
+      "v11t-031"
+    ]
+  },
+  "prompts": [
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-smallest-ocean",
+      "id": "v11-009",
+      "text": "Which ocean is the smallest?",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-smallest-ocean",
+      "id": "v11-010",
+      "text": "What is the smallest ocean in the world?",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-minutes-in-day",
+      "id": "v11-011",
+      "text": "How many minutes are there in a day?",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-minutes-in-day",
+      "id": "v11-012",
+      "text": "How many minutes make up a full day?",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-kangaroo-country",
+      "id": "v11-021",
+      "text": "Which country is home to kangaroos?",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-fastest-bird",
+      "id": "v11-028",
+      "text": "What is the fastest bird in the world?",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-egypt-language",
+      "id": "v11-032",
+      "text": "What is the main language spoken in Egypt?",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-tallest-mountain-africa",
+      "id": "v11-035",
+      "text": "What is the tallest mountain in Africa?",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11-longest-wall",
+      "id": "v11-040",
+      "text": "What is the longest wall in the world?",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "never",
+      "category": "action",
+      "group": "V11-turn-on-living-room-lamp",
+      "id": "v11-042",
+      "text": "Turn on the living room lamp.",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "never",
+      "category": "action",
+      "group": "V11-turn-up-thermostat",
+      "id": "v11-050",
+      "text": "Please turn up the thermostat a little.",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "never",
+      "category": "action",
+      "group": "V11-start-dishwasher",
+      "id": "v11-052",
+      "text": "Please start the dishwasher.",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "never",
+      "category": "action",
+      "group": "V11-play-morning-playlist",
+      "id": "v11-054",
+      "text": "Could you play my morning playlist in the living room?",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "never",
+      "category": "action",
+      "group": "V11-turn-heating-down-tonight",
+      "id": "v11-055",
+      "text": "Can you turn the heating down tonight?",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "never",
+      "category": "action",
+      "group": "V11-unlock-back-door",
+      "id": "v11-056",
+      "text": "Could you unlock a back door for me?",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "never",
+      "category": "perception",
+      "group": "V11-car-charged-tomorrow",
+      "id": "v11-063",
+      "text": "Is my car charged enough to drive tomorrow?",
+      "route": "full",
+      "must_block": true,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "never",
+      "category": "agent-task",
+      "group": "V11-book-taxi-station-nine",
+      "id": "v11-075",
+      "text": "Book a taxi to the station for nine o'clock.",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "never",
+      "category": "agent-task",
+      "group": "V11-schedule-dentist-next-week",
+      "id": "v11-078",
+      "text": "Schedule a dentist appointment for next week.",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "ttl24",
+      "category": "generative",
+      "group": "V11-toast-thirtieth-birthday",
+      "id": "v11-083",
+      "text": "Write a toast for a friend's thirtieth birthday.",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "ttl24",
+      "category": "generative",
+      "group": "V11-haiku-autumn-leaves",
+      "id": "v11-084",
+      "text": "Write a haiku about autumn leaves.",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "ttl24",
+      "category": "generative",
+      "group": "V11-names-coffee-shop",
+      "id": "v11-085",
+      "text": "Suggest three names for a new coffee shop.",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "ttl24",
+      "category": "generative",
+      "group": "V11-ideas-surprise-birthday-party",
+      "id": "v11-088",
+      "text": "Give me five ideas for a surprise birthday party.",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "ttl24",
+      "category": "generative",
+      "group": "V11-poem-first-snow-winter",
+      "id": "v11-089",
+      "text": "Write a poem about the first snow of winter.",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11T-backwards-flying-bird",
+      "id": "v11t-005",
+      "text": "Which bird can fly backwards?",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11T-backwards-flying-bird",
+      "id": "v11t-006",
+      "text": "What bird is able to fly in reverse?",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11T-smallest-country",
+      "id": "v11t-011",
+      "text": "What is the smallest country in the world?",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11T-smallest-country",
+      "id": "v11t-012",
+      "text": "Which country is the smallest by area?",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11T-most-pyramids-country",
+      "id": "v11t-016",
+      "text": "Which country has the most pyramids?",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V11T-salt-formula",
+      "id": "v11t-019",
+      "text": "What is the chemical formula for salt?",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "never",
+      "category": "action",
+      "group": "V11T-open-study-curtains",
+      "id": "v11t-026",
+      "text": "Can you open the curtains in the study?",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "never",
+      "category": "perception",
+      "group": "V11T-anyone-in-garden",
+      "id": "v11t-031",
+      "text": "Is anyone in the garden right now?",
+      "route": "full",
+      "must_block": true,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "never",
+      "category": "perception",
+      "group": "V11T-check-laundry-finished",
+      "id": "v11t-033",
+      "text": "Can you check if the laundry has finished?",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "never",
+      "category": "perception",
+      "group": "V11T-study-temperature-now",
+      "id": "v11t-034",
+      "text": "What is the temperature in the study right now?",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "never",
+      "category": "agent-task",
+      "group": "V11T-order-coffee-beans",
+      "id": "v11t-037",
+      "text": "Order more coffee beans online.",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "never",
+      "category": "agent-task",
+      "group": "V11T-schedule-plumber-visit",
+      "id": "v11t-039",
+      "text": "Schedule a plumber visit for next Tuesday.",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "ttl24",
+      "category": "chatter",
+      "group": "V11T-like-rainy-days",
+      "id": "v11t-048",
+      "text": "Do you like rainy days?",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    },
+    {
+      "cacheable": "ttl24",
+      "category": "chatter",
+      "group": "V11T-finished-long-run",
+      "id": "v11t-049",
+      "text": "I just finished a long run and I feel great.",
+      "route": "full",
+      "must_block": false,
+      "frozen": true,
+      "split": "holdout"
+    }
+  ]
+}

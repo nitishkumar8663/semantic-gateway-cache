@@ -1,0 +1,96 @@
+Semantic AI Gateway and Cache - demo evidence
+Gateway: http://127.0.0.1:18795  Embeddings: bge-m3 via http://127.0.0.1:11434
+Started: 2026-11-22 05:28:34 GMT
+
+Gateway /health: {'ok': True, 'service': 'semantic-gateway-cache', 'threshold': 0.98}
+Gateway /stats before demo: {'queries': 0, 'hits': 0, 'misses': 0, 'hit_rate': None, 'median_hit_ms': None, 'median_miss_ms': None, 'entries': 0, 'threshold': 0.98, 'upstream_mode': 'ollama'}
+
+Store cleared (POST /clear).
+
+== COLD PASS (5 seeds, empty store; every query must MISS) ==
+MISS  sim=-1.0000   4299.7 ms  cached=True  'What is the capital of France?'
+      upstream output (first 120 chars): 'The capital of France is **Paris**. \n\nIt’s a major global center for art, fashion, gastronomy, and culture. 😊 \n\nWould yo'
+MISS  sim=0.3729    943.2 ms  cached=True  'How do I reset my Wi-Fi router?'
+      upstream output (first 120 chars): "Okay, let's get your Wi-Fi router reset! There are a few ways to do it, depending on what you're trying to fix. Here's a"
+MISS  sim=0.2880    486.7 ms  cached=True  'Write a haiku about autumn rain.'
+      upstream output (first 120 chars): 'Gray skies softly weep,\nLeaves in puddles, cool and slow,\nEarth drinks, peace descends.'
+MISS  sim=0.4160    959.9 ms  cached=True  'What is the best way to boil an egg?'
+      upstream output (first 120 chars): "Okay, let's talk about boiling eggs! There's a surprising amount of debate, but here's a breakdown of the *best* method "
+MISS  sim=0.4697    681.3 ms  cached=True  'Explain photosynthesis in one sentence.'
+      upstream output (first 120 chars): 'Photosynthesis is the process where plants and other organisms use sunlight to convert carbon dioxide and water into glu'
+Cold-pass misses: 5/5, median miss latency 943.2 ms
+
+== WARM PASS (20 recorded prompts, store holds the 5 seeds) ==
+HIT   sim=1.0000     12.3 ms  [exact/positive]  'What is the capital of France?'
+HIT   sim=1.0000     11.7 ms  [exact/positive]  'How do I reset my Wi-Fi router?'
+HIT   sim=1.0000     13.1 ms  [exact/positive]  'Write a haiku about autumn rain.'
+HIT   sim=1.0000     11.4 ms  [exact/positive]  'What is the best way to boil an egg?'
+HIT   sim=1.0000     11.6 ms  [exact/positive]  'Explain photosynthesis in one sentence.'
+HIT   sim=0.9880     23.3 ms  [paraphrase/positive]  'Which city is the capital of France?'
+MISS  sim=0.9369    944.3 ms  [paraphrase/positive]  'How can I restart my Wi-Fi router?'
+HIT   sim=0.9827   2089.6 ms  [paraphrase/positive]  'Compose a haiku about rain in autumn.'
+HIT   sim=0.9850     16.5 ms  [paraphrase/positive]  'What is the best method for boiling an egg?'
+HIT   sim=0.9805     13.2 ms  [paraphrase/positive]  'Describe photosynthesis in a single sentence.'
+MISS  sim=0.7600    954.0 ms  [different-intent/negative]  'What is the capital of Spain?'
+MISS  sim=0.8826    950.7 ms  [different-intent/negative]  'How do I reset my Wi-Fi password?'
+MISS  sim=0.7105    490.2 ms  [different-intent/negative]  'Write a haiku about summer heat.'
+MISS  sim=0.8792    947.6 ms  [different-intent/negative]  'What is the best way to fry an egg?'
+MISS  sim=0.7356    610.5 ms  [different-intent/negative]  'Explain cellular respiration in one sentence.'
+MISS  sim=0.4036    947.5 ms  [unrelated/negative]  'What time does the London Underground close on Sundays?'
+MISS  sim=0.4107    971.0 ms  [unrelated/negative]  'How many moons does Jupiter have?'
+MISS  sim=0.5122    946.3 ms  [unrelated/negative]  "Translate 'good morning' into Japanese."
+MISS  sim=0.4467    952.9 ms  [unrelated/negative]  'What is 17 multiplied by 6?'
+MISS  sim=0.3527    963.1 ms  [unrelated/negative]  'Who wrote Pride and Prejudice?'
+
+Warm-pass hit rate: 9/20 = 45.00%
+Median HIT latency: 13.1 ms (n=9)
+Median MISS latency: 947.6 ms (n=11)
+Speedup (median miss / median hit): 72.5x
+
+  exact: 5/5 hit
+  paraphrase: 4/5 hit
+  different-intent: 0/5 hit
+  unrelated: 0/5 hit
+
+== FALSE-POSITIVE CHECK ==
+PASS: 0/10 negative prompts hit (5 different-intent near-duplicates + 5 unrelated all correctly MISSED).
+
+== THRESHOLD SWEEP (max cosine vs the 5 seed embeddings) ==
+  max-sim=1.0000  [exact/positive]  'What is the capital of France?'
+  max-sim=1.0000  [exact/positive]  'How do I reset my Wi-Fi router?'
+  max-sim=1.0000  [exact/positive]  'Write a haiku about autumn rain.'
+  max-sim=1.0000  [exact/positive]  'What is the best way to boil an egg?'
+  max-sim=1.0000  [exact/positive]  'Explain photosynthesis in one sentence.'
+  max-sim=0.9880  [paraphrase/positive]  'Which city is the capital of France?'
+  max-sim=0.9369  [paraphrase/positive]  'How can I restart my Wi-Fi router?'
+  max-sim=0.9827  [paraphrase/positive]  'Compose a haiku about rain in autumn.'
+  max-sim=0.9850  [paraphrase/positive]  'What is the best method for boiling an egg?'
+  max-sim=0.9805  [paraphrase/positive]  'Describe photosynthesis in a single sentence.'
+  max-sim=0.7600  [different-intent/negative]  'What is the capital of Spain?'
+  max-sim=0.8826  [different-intent/negative]  'How do I reset my Wi-Fi password?'
+  max-sim=0.7105  [different-intent/negative]  'Write a haiku about summer heat.'
+  max-sim=0.8792  [different-intent/negative]  'What is the best way to fry an egg?'
+  max-sim=0.7356  [different-intent/negative]  'Explain cellular respiration in one sentence.'
+  max-sim=0.3884  [unrelated/negative]  'What time does the London Underground close on Sundays?'
+  max-sim=0.4107  [unrelated/negative]  'How many moons does Jupiter have?'
+  max-sim=0.5122  [unrelated/negative]  "Translate 'good morning' into Japanese."
+  max-sim=0.4000  [unrelated/negative]  'What is 17 multiplied by 6?'
+  max-sim=0.3204  [unrelated/negative]  'Who wrote Pride and Prejudice?'
+
+threshold | precision | recall | F1 | TP FP FN TN
+  0.85     |  0.833    | 1.000  | 0.909 | 10  2  0  8
+  0.90     |  1.000    | 1.000  | 1.000 | 10  0  0  10
+  0.95     |  1.000    | 0.900  | 0.947 | 9  0  1  10
+  0.97     |  1.000    | 0.900  | 0.947 | 9  0  1  10
+  0.98     |  1.000    | 0.900  | 0.947 | 9  0  1  10
+  0.99     |  1.000    | 0.500  | 0.667 | 5  0  5  10
+
+Tuned threshold (best F1 on this set): 0.9 (F1=1.000). Configured gateway threshold: 0.98.
+
+Gateway /stats after demo: {'queries': 25, 'hits': 9, 'misses': 16, 'hit_rate': 0.36, 'median_hit_ms': 13.1, 'median_miss_ms': 947.6, 'entries': 16, 'threshold': 0.98, 'upstream_mode': 'ollama'}
+
+Commands used:
+  python3 gateway.py  (GATEWAY_UPSTREAM_MODE=ollama, GATEWAY_UPSTREAM_MODEL=gemma3:4b-it-q8_0, port 18795)
+  python3 -m unittest discover -s tests -v
+  python3 demo/run_demo.py
+Notes: miss latency = embed + lookup + gemma3:4b generation (real GPU work). Hit latency = embed + lookup only. Exact repeats score cosine 1.0 by construction (same text, same embedding).

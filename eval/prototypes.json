@@ -1,0 +1,57 @@
+{
+  "agent_task": [
+    "apply the code changes and report back",
+    "build and install the plugin",
+    "task update from the agent"
+  ],
+  "appliances": [
+    "turn on the washing machine",
+    "start the dishwasher",
+    "switch off the oven"
+  ],
+  "doors": [
+    "unlock a door",
+    "lock the door",
+    "open the front door",
+    "is the door locked",
+    "is the door shut"
+  ],
+  "heating": [
+    "turn the heating on",
+    "turn up the heating",
+    "set the thermostat",
+    "make it warmer"
+  ],
+  "lights": [
+    "turn the lights on",
+    "turn the lights off",
+    "switch the lamp on",
+    "switch the lamp off"
+  ],
+  "lists": [
+    "add milk to the shopping list",
+    "what is on my shopping list",
+    "remove bread from the list"
+  ],
+  "messages": [
+    "send a message to mum",
+    "tell papa the door is unlocked"
+  ],
+  "perception": [
+    "perception alert",
+    "the front door is open"
+  ],
+  "reminders": [
+    "remind me to call mum",
+    "set a reminder for tomorrow"
+  ],
+  "timers": [
+    "set a timer",
+    "set an alarm",
+    "count down ten minutes"
+  ],
+  "weather": [
+    "will it rain",
+    "what is the weather forecast"
+  ]
+}

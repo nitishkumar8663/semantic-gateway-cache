@@ -1,0 +1,446 @@
+{
+  "version": "v10",
+  "status": "frozen",
+  "frozen": true,
+  "counts": {
+    "prompts": 38,
+    "families": 35,
+    "cacheable": {
+      "stable": 14,
+      "never": 15,
+      "ttl24": 9
+    },
+    "category": {
+      "factual": 14,
+      "action": 7,
+      "agent-task": 4,
+      "generative": 5,
+      "chatter": 4,
+      "perception": 4
+    },
+    "must_block": [
+      "v10t-032",
+      "v10t-033"
+    ]
+  },
+  "prompts": [
+    {
+      "id": "v10-024",
+      "text": "What is the hardest naturally occurring substance on Earth?",
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V10-hardest-substance",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v10-027",
+      "text": "How many weeks are there in a year?",
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V10-weeks-in-year",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v10-030",
+      "text": "What season follows summer?",
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V10-season-after-summer",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v10-032",
+      "text": "What is the name of the galaxy we live in?",
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V10-our-galaxy",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v10-034",
+      "text": "What colour do you get by mixing blue and yellow paint?",
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V10-blue-yellow-mix",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v10-036",
+      "text": "How many seconds are there in a minute?",
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V10-seconds-in-minute",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v10-041",
+      "text": "Turn on the hallway light",
+      "cacheable": "never",
+      "category": "action",
+      "group": "V10-hallway-light-on",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v10-046",
+      "text": "Could you lower the heating a bit?",
+      "cacheable": "never",
+      "category": "action",
+      "group": "V10-heating-down",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v10-048",
+      "text": "Please stop the washing machine",
+      "cacheable": "never",
+      "category": "action",
+      "group": "V10-washing-machine-stop",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v10-050",
+      "text": "Dim the living room lights to half",
+      "cacheable": "never",
+      "category": "action",
+      "group": "V10-living-room-dim",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v10-053",
+      "text": "Turn off the television in the lounge",
+      "cacheable": "never",
+      "category": "action",
+      "group": "V10-tv-off",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v10-072",
+      "text": "Book a taxi for nine tomorrow morning",
+      "cacheable": "never",
+      "category": "agent-task",
+      "group": "V10-book-taxi-nine",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v10-076",
+      "text": "Cancel my dentist appointment on Friday",
+      "cacheable": "never",
+      "category": "agent-task",
+      "group": "V10-cancel-dentist",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v10-078",
+      "text": "Remind me to water the plants tonight",
+      "cacheable": "never",
+      "category": "agent-task",
+      "group": "V10-remind-water-plants",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v10-088",
+      "text": "Write a wedding toast for my best friend",
+      "cacheable": "ttl24",
+      "category": "generative",
+      "group": "V10-wedding-toast-friend",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v10-096",
+      "text": "How was your day today?",
+      "cacheable": "ttl24",
+      "category": "chatter",
+      "group": "V10-how-was-day",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v10-099",
+      "text": "Hello, it is nice to see you",
+      "cacheable": "ttl24",
+      "category": "chatter",
+      "group": "V10-hello-nice-see-you",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "id": "v10-100",
+      "text": "I am bored, can you cheer me up?",
+      "cacheable": "ttl24",
+      "category": "chatter",
+      "group": "V10-bored-cheer-up",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V10T-deepest-cave",
+      "id": "v10t-001",
+      "text": "What is the deepest cave in the world?",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V10T-deepest-cave",
+      "id": "v10t-002",
+      "text": "Which cave goes deepest underground?",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V10T-octopus-hearts",
+      "id": "v10t-004",
+      "text": "What is the number of hearts in an octopus?",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V10T-first-crossword",
+      "id": "v10t-005",
+      "text": "In what year was the first crossword puzzle published?",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V10T-first-crossword",
+      "id": "v10t-006",
+      "text": "When did the first crossword appear in print?",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V10T-smallest-bone",
+      "id": "v10t-007",
+      "text": "What is the smallest bone in the human body?",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V10T-smallest-bone",
+      "id": "v10t-008",
+      "text": "Which bone in the human body is the tiniest?",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "cacheable": "stable",
+      "category": "factual",
+      "group": "V10T-eiffel-tower-opened",
+      "id": "v10t-017",
+      "text": "In what year did the Eiffel Tower open to the public?",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "cacheable": "never",
+      "category": "action",
+      "group": "V10T-close-bedroom-window",
+      "id": "v10t-023",
+      "text": "Please close the bedroom window before it gets cold.",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "cacheable": "never",
+      "category": "action",
+      "group": "V10T-play-jazz-kitchen",
+      "id": "v10t-029",
+      "text": "Could you play some jazz in the kitchen?",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "cacheable": "never",
+      "category": "perception",
+      "group": "V10T-oven-still-on",
+      "id": "v10t-032",
+      "text": "Can you check if the oven is still on?",
+      "must_block": true,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "cacheable": "never",
+      "category": "perception",
+      "group": "V10T-phone-charging-bedroom",
+      "id": "v10t-033",
+      "text": "Is my phone charging in the bedroom?",
+      "must_block": true,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "cacheable": "never",
+      "category": "perception",
+      "group": "V10T-back-gate-shut",
+      "id": "v10t-034",
+      "text": "Is the back gate shut?",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "cacheable": "never",
+      "category": "perception",
+      "group": "V10T-garage-door-closed",
+      "id": "v10t-037",
+      "text": "Is the garage door closed?",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "cacheable": "never",
+      "category": "agent-task",
+      "group": "V10T-remind-call-plumber",
+      "id": "v10t-040",
+      "text": "Could you remind me to call the plumber tomorrow?",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "cacheable": "ttl24",
+      "category": "generative",
+      "group": "V10T-poem-first-snow",
+      "id": "v10t-042",
+      "text": "Write a poem about the first snow in a city.",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "cacheable": "ttl24",
+      "category": "generative",
+      "group": "V10T-coffee-blend-name",
+      "id": "v10t-043",
+      "text": "Invent a name for a new coffee blend and describe how it tastes.",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "cacheable": "ttl24",
+      "category": "generative",
+      "group": "V10T-birthday-cycling-friend",
+      "id": "v10t-044",
+      "text": "Write a birthday message for a friend who loves cycling.",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "cacheable": "ttl24",
+      "category": "generative",
+      "group": "V10T-toast-housewarming",
+      "id": "v10t-046",
+      "text": "Write a toast for a housewarming party.",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    },
+    {
+      "cacheable": "ttl24",
+      "category": "chatter",
+      "group": "V10T-bored-indoors-fun",
+      "id": "v10t-049",
+      "text": "I am bored, suggest something fun to do indoors.",
+      "must_block": false,
+      "split": "holdout",
+      "route": "full",
+      "frozen": true
+    }
+  ]
+}
